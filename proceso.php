@@ -23,7 +23,7 @@
 
         if ($consulta -> execute()) {
             echo '<script>
-                        alertarEnvioExitoso();
+                    alertarEnvioExitoso();
                  </script>';
         } else { 
             echo '<script>
